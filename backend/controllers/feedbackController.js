@@ -4,7 +4,7 @@ const axios = require('axios');
 exports.submitFeedback = async (req, res) => {
     const { category, rating, comments } = req.body;
     const feedback = new Feedback({
-        userId: req.user.id,
+        userId: '66911e043cd6d47e9aedd0ad',
         category,
         rating,
         comments,
